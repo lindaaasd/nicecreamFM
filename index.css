@@ -5,6 +5,7 @@
 
 :root {
     --main-color-green: rgba(4, 53, 4, 0.932);
+    --secondary-color: black;
 }
 
 body {
@@ -16,7 +17,7 @@ body {
 }
 
 h1 {
-
+    -webkit-text-stroke: 2px black;
     font-size: 5cm;
     font-weight: bolder;
     color: var(--main-color-green);
@@ -27,6 +28,7 @@ h1 {
 
 .main-wrapper {
     height: 500px;
+    width: 1000px;
     backdrop-filter: blur(2px);
     position: absolute;
 }
@@ -38,9 +40,33 @@ h1 {
     cursor:pointer;
     overflow: hidden; 
     position: relative;
-    bottom: 250px;
+    bottom: 200px;
+    padding: 10px;
 }
 
 .fa-cog {
     color: var(--main-color-green);
+  }
+
+.linkButtons{
+
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden; 
+    position: relative;
+    bottom: 200px;
+    padding: 30px;
+   
+
+  }
+
+  .titleAndSong {
+
+    color: var(--secondary-color);
+    position: relative;
+    bottom: 150px;
+    backdrop-filter: blur(4px);
+
   }

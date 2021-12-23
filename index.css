@@ -28,4 +28,19 @@ h1 {
 .main-wrapper {
     height: 500px;
     backdrop-filter: blur(2px);
+    position: absolute;
 }
+
+.playButton {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden; 
+    position: relative;
+    bottom: 250px;
+}
+
+.fa-cog {
+    color: var(--main-color-green);
+  }

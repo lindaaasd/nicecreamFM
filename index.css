@@ -1,0 +1,31 @@
+* {
+    font-family: 'Spartan';
+}
+
+
+:root {
+    --main-color-green: rgba(4, 53, 4, 0.932);
+}
+
+body {
+    background: url('./media/green1.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+}
+
+h1 {
+
+    font-size: 5cm;
+    font-weight: bolder;
+    color: var(--main-color-green);
+}
+
+/* body parts  */
+
+
+.main-wrapper {
+    height: 500px;
+    backdrop-filter: blur(2px);
+}

@@ -4,10 +4,15 @@
 
 
 :root {
-    --main-color-green: rgba(4, 53, 4, 0.932);
-    --main-color-red: rgba(90, 21, 21, 0.856);
-    --main-color-blue: rgba(49, 49, 88, 0.788);
-    --secondary-color: black;
+    --main-color-green: white;
+    --main-color-red: white;
+    --main-color-blue: white;
+    --secondary-color: white;
+}
+
+i {
+    color: white;
+    -webkit-text-stroke: 1px black;
 }
 
 .bodyGreen {

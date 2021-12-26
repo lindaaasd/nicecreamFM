@@ -1,5 +1,5 @@
 * {
-    font-family: 'Arial';
+    font-family: 'Spartan';
 }
 
 
@@ -16,7 +16,7 @@ i {
 }
 
 .bodyGreen {
-    background: url('./media/green1.jpg');
+    /* background: url('./media/green1.jpg'); */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -24,7 +24,7 @@ i {
 }
 
 .bodyRed{
-    background: url('./media/red1.jpg');
+    /* background: url('./media/red1.jpg'); */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -32,7 +32,7 @@ i {
 }
 
 .bodyBlue{
-    background: url('./media/blue1.jpg');
+    /* background: url('./media/blue1.jpg'); */
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -41,24 +41,26 @@ i {
 
 .h1Green {
     -webkit-text-stroke: 2px black;
-    font-size: 5cm;
+    font-size: 4cm;
     font-weight: bolder;
     color: var(--main-color-green);
 }
 
 .h1Red {
     -webkit-text-stroke: 2px black;
-    font-size: 5cm;
+    font-size: 4cm;
     font-weight: bolder;
     color: var(--main-color-red);
 }
 
 .h1Blue {
     -webkit-text-stroke: 2px black;
-    font-size: 5cm;
+    font-size: 4cm;
     font-weight: bolder;
     color: var(--main-color-blue);
 }
+
+
 
 /* body parts  */
 
@@ -66,7 +68,6 @@ i {
 .main-wrapper {
     height: 500px;
     width: 1000px;
-    backdrop-filter: blur(2px);
     position: absolute;
 }
 
@@ -88,7 +89,7 @@ i {
     cursor:pointer;
     overflow: hidden; 
     position: relative;
-    bottom: 200px;
+    bottom: 155px;
     padding: 10px;
 }
 
@@ -119,7 +120,7 @@ i {
     cursor:pointer;
     overflow: hidden; 
     position: relative;
-    bottom: 200px;
+    bottom: 150px;
     padding: 30px;
    
 
@@ -130,12 +131,13 @@ i {
     color: var(--secondary-color);
     position: relative;
     bottom: 150px;
-    backdrop-filter: blur(4px);
 
   }
 
 
   /* footer */
+
+
 
 
 

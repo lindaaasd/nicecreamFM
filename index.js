@@ -22,6 +22,7 @@ let tracks = [
 
 
 let currentTrack = 0;
+
 // play - pause buttons
 
 const PlayBtn = document.querySelector('#PlayBtn');
@@ -48,6 +49,10 @@ nextTrackBtn.addEventListener('click' , () => {
     nextTrack()
 })
 
+prewTrackBtn.addEventListener('click' , () => {
+    prewTrack()
+})
+
 function changeTrackDetails(){
 
     let song = tracks [currentTrack]
@@ -65,11 +70,29 @@ function nextTrack(){
         currentTrack = 0 
     }
 
+    let playing = !track.paused
+
     changeTrackDetails()
+
+    if(playing){
+        track.play()
+    }
 }
 
 function prewTrack(){
     currentTrack --
+    
+    if (currentTrack < 0){
+        currentTrack = tracks.length -1
+    }
+
+    let playing = !track.paused
+
+    changeTrackDetails()
+
+    if(playing){
+        track.play()
+    }
 }
 
 changeTrackDetails()

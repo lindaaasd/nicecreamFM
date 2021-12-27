@@ -16,7 +16,7 @@ let tracks = [
             {title : "B*tch don't kill  my vibe" , artist : "Kendrick Lamar" , color: "green" , url: "./media/audio1.mp3"},
             {title : "RJD2" , artist: "Ghostwritter" , color: "green" , url: "./media/audio2.mp3"},
             {title : "Promises", artist: "Golan" , color: "green" , url: "./media/audio3.mp3"},
-            {title: "Trece un nouras" , artist: "Danaga", color: "green" , url: "./media/audio4.mp3"},
+            {title: "Trece un nouras" , artist: "Danaga", url: "./media/audio4.mp3"},
         ]
 
 

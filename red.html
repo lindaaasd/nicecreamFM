@@ -39,7 +39,7 @@
      <div class="row vh-100 align-items-center main-wrapper">
         <div class="col-12 d-flex justify-content-center">
           <div class="d-flex align-items-center switchArrow">
-            <a href="green.html" class="arrowIconAnchorRed">
+            <a href="index.html" class="arrowIconAnchorRed">
            <i class="fa-solid fa-angle-left fa-7x arrowIconAnchorRed"></i>
             </a>
          </div>
@@ -75,11 +75,19 @@
                 </button>
               </a> 
             </div>
-            <div class="col-12 d-flex justify-content-center titleAndSong w-100">
-              <h3> <strong>Everything in its right place </strong></h3>
+            <div class="col-12 d-flex justify-content-center titleAndSong">
+              <h3 id="trackTitle"> <strong>Everything in its right place </strong></h3>
             </div>
             <div class="col-12 d-flex justify-content-center titleAndSong">
-              <h4> Radiohead </h4>
+              <h4 id="trackArtist"> Radiohead </h4>
+            </div>
+            <div class="col-12 d-flex justify-content-center prewNext">
+              <button id="prewTrackBtn" class="prewNextClass">
+                <i class="fa-solid fa-backward"></i>
+              </button>
+              <button id="nextTrackBtn" class="prewNextClass">
+                <i class="fa-solid fa-forward"></i>
+              </button>
             </div>
         
           </div>
@@ -110,13 +118,9 @@
 
   </body>
 
-
-
   <script type="text/javascript"> 
     ChangeBgImg('red');
   </script> 
-
-
 
 </html>
 

@@ -2,6 +2,9 @@
     font-family: 'Spartan';
 }
 
+/* body {
+    position: relative;
+} */
 
 :root {
     --main-color-green: white;
@@ -21,7 +24,7 @@ i {
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
-    min-height: 100vh;
+    height: 100vh;
 }
 
 .bodyRed{
@@ -67,8 +70,6 @@ i {
 
 
 .main-wrapper {
-    height: 500px;
-    width: 1000px;
     position: absolute;
 }
 
@@ -142,13 +143,28 @@ i {
   .prewNextClass {
       background-color: transparent;
       border: none;
-      color: transparent;
   }
 
 
-  /* footer */
+ /* progress bars */
 
+.progress {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    height: 10px;
+    background-color: transparent;
+}
 
+.verticalProg {
+    
+    width: 10px;
+    height: 100vh;
+    transform: rotate(-180deg);
+}
 
+.progress-bar {
+    background-color: white;
 
-
+}
